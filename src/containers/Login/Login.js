@@ -19,8 +19,8 @@ const getFormSchema = () => {
   });
 
   const defaultValues = {
-    email: "nico06.829222cr@gmail.com",
-    password: "nicolas123",
+    email: "user_1@user.com",
+    password: "user123!@",
   };
 
   return { loginFormSchema, defaultValues };
