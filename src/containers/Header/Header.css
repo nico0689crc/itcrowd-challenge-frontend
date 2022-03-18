@@ -1,0 +1,11 @@
+.header__container {
+  background-color: rgba(var(--color-gray-100), 1);
+  width: 100%;
+  padding: 1.5em;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(var(--color-border-200), 1);
+  z-index: 1;
+}

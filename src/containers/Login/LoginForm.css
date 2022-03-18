@@ -1,0 +1,40 @@
+.login-form__container {
+  display: flex;
+  gap: 1.5em;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em;
+  overflow: hidden;
+}
+
+.login-form__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form__header p {
+  font-size: 1.25rem;
+  text-align: center;
+  color: rgba(var(--text-base), 1);
+}
+
+.login-form__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-form__content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 1.5em;
+}
+
+.login-form__content form a,
+.login-form__content form svg {
+  color: rgba(var(--color-accent), 1);
+}

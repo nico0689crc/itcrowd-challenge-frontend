@@ -1,0 +1,9 @@
+.logo__link {
+  text-decoration: none;
+}
+
+.logo__text {
+  color: rgba(var(--color-accent), 1);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
