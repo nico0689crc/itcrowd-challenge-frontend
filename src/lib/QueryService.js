@@ -25,6 +25,24 @@ export class QueryService {
     return this.http.get(`${this.basePath}/${id}`).then(res => res.data);
   };
 
+  delete = async ({ id }) => {
+    return this.http.delete(`${this.basePath}/${id}`).then(res => res.data);
+  };
+
+  patch = async ({ id, values }) => {
+    return this.http
+      .patch(`${this.basePath}/${id}`, values)
+      .then(res => res.data);
+  };
+
+  post = async ({ values }) => {
+    return this.http.post(`${this.basePath}`, values).then(res => res.data);
+  };
+
+  getAll = async () => {
+    return this.http.get(`${this.basePath}`).then(res => res.data);
+  };
+
   get = async url => {
     return this.http.get(url).then(res => res.data);
   };

@@ -7,7 +7,7 @@ import NotFound from "../../../components/NotFound/NotFound";
 import ProductItem from "./ProductItem";
 import "./ProductList.css";
 
-const ProductList = () => {
+const ProductList = ({ isAdminView }) => {
   const params = {
     size: "10",
     page: "1",
@@ -50,7 +50,11 @@ const ProductList = () => {
             {data?.pages?.map((products, index) => (
               <Fragment key={index}>
                 {products?.data?.map((product, index) => (
-                  <ProductItem key={index} product={product} />
+                  <ProductItem
+                    key={index}
+                    product={product}
+                    isAdminView={isAdminView}
+                  />
                 ))}
               </Fragment>
             ))}

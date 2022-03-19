@@ -27,7 +27,7 @@ const Navbar = () => {
               </span>
             </li>
             <li className="navbar__item">
-              <Link className="navbar__link" to="/products">
+              <Link className="navbar__link" to="/admin">
                 Administrar Productos
               </Link>
             </li>

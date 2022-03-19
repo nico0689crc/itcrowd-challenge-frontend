@@ -16,7 +16,7 @@ request.interceptors.request.use(
   config => {
     config.headers = {
       ...config.headers,
-      Authorization: `Bearer ${token ? token : ""}`,
+      Authorization: `Barrer ${token ? token : ""}`,
     };
     return config;
   },

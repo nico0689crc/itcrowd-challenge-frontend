@@ -1,0 +1,38 @@
+.admin-container {
+  position: relative;
+}
+
+.add-product {
+  position: fixed;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.add-product button {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: inherit;
+  background-color: rgba(var(--color-accent), 1);
+  border: 1px solid transparent;
+  padding: 1em 1.5em;
+  color: rgba(var(--color-light), 1);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product button:hover {
+  background-color: rgba(var(--color-accent-hover), 1);
+}
+
+@media (min-width: 800px) {
+  .add-product {
+    top: 90px;
+  }
+}

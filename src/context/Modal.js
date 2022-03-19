@@ -16,9 +16,17 @@ export const VIEWS = {
   PRODUCT_DETAILS: {
     name: "PRODUCT_DETAILS",
   },
-
   AUTH_LOGIN: {
     name: "AUTH_LOGIN",
+  },
+  PRODUCT_DELETE: {
+    name: "PRODUCT_DELETE",
+  },
+  PRODUCT_EDIT: {
+    name: "PRODUCT_EDIT",
+  },
+  PRODUCT_ADD: {
+    name: "PRODUCT_ADD",
   },
 };
 

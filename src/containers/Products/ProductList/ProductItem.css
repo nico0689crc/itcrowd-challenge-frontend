@@ -75,3 +75,42 @@
 .product-item__add-to-cart-button {
   margin-top: 1em;
 }
+
+.product-item__actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 1em;
+}
+
+.button__edit,
+.button__delete {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(var(--color-light));
+  font-weight: 500;
+  padding: 0.5em 1em;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button__edit {
+  background-color: rgb(237, 179, 72);
+}
+
+.button__delete {
+  background-color: rgb(205, 74, 74);
+}
+
+.button__edit:hover {
+  background-color: rgb(208, 155, 58);
+}
+
+.button__delete:hover {
+  background-color: rgb(167, 49, 49);
+}

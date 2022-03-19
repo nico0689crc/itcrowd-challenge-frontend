@@ -1,0 +1,19 @@
+.create-edit-product__container {
+  height: 100%;
+  padding: 0 2em 2em 2em;
+  overflow: auto;
+}
+
+.create-edit-product__container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.create-edit-product__container h1 {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .create-edit-product__container form {
+    padding: 2em;
+  }
+}
