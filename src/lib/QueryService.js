@@ -1,8 +1,8 @@
-import axiosInstance from "./axios.js";
+import { createAxiosRequest } from "./axios.js";
 
 export class QueryService {
   constructor(basePath) {
-    this.http = axiosInstance;
+    this.http = createAxiosRequest();
     this.basePath = basePath;
   }
 
