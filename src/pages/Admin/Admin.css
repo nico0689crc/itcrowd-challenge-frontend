@@ -4,7 +4,7 @@
 
 .add-product {
   position: fixed;
-  top: 140px;
+  top: 180px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;

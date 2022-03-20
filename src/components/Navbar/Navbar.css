@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+.navbar__item {
+  text-align: right;
+}
+
 .navbar__span,
 .navbar__link {
   font-family: inherit;
